@@ -677,7 +677,7 @@ if ( ! function_exists('_shutdown_handler'))
 	 * of CodeIgniter.php. The main reason we use this is to simulate
 	 * a complete custom exception handler.
 	 *
-	 * E_STRICT is purposivly neglected because such events may have
+	 * E_STRICT is purposively neglected because such events may have
 	 * been caught. Duplication or none? None is preferred for now.
 	 *
 	 * @link	http://insomanic.me.uk/post/229851073/php-trick-catching-fatal-errors-e-error-with-a
@@ -816,7 +816,7 @@ if ( ! function_exists('function_usable'))
 	 * terminate script execution if a disabled function is executed.
 	 *
 	 * The above described behavior turned out to be a bug in Suhosin,
-	 * but even though a fix was commited for 0.9.34 on 2012-02-12,
+	 * but even though a fix was committed for 0.9.34 on 2012-02-12,
 	 * that version is yet to be released. This function will therefore
 	 * be just temporary, but would probably be kept for a few years.
 	 *
